@@ -1,4 +1,4 @@
-I wanted to make Chat GPT (CGPT) 4 summarize 10 regression models in a tabular format with concrete examples. I wanted this to sort act like a quick refresher/cheat sheet for regression models. 
+I wanted to make Chat GPT (CGPT) 4 summarize regression models in a tabular format with concrete examples. I wanted to create a simple refresher guide/cheat sheet for regression models. For example, this can come in handy for teaching.
 
 # Prompt 1 - Succeeded
 After a few iterations, here's a prompt that gave me what I was looking for:
@@ -42,6 +42,9 @@ Table 2: Examples of regression models for specific scenarios and why other mode
 NOTE: Not going to comment on how accurate the content is just yet - I will review it later.
 
 I ran into a different problem though, described in the next section.
+
+## Observations:
+Note that the prompt requested 5 models. When I requested 10 models, CGPT4 output was incomplete. Sometimes the second table was not printed and some times it did not have all entries. This was depite the presence of the directives: `Make sure to output 2 tables` and `Make sure to use all models from the first table as columns in the second table`.
 
 # Prompt 2 - Get output as HTML - Partial success
 
